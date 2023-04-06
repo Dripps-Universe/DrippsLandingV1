@@ -88,6 +88,7 @@ align-items: center;
 text-align: center;
 padding: 2.5em 6em 2.5em 6em;
 width: 67%;
+margin-top: 3.6em;
 }
 #contentBox1 h1 {
 color: black;
@@ -128,6 +129,10 @@ border-radius: 2em 2em 2em 2em;
   display: flex;
 }
 
+.footerPic {
+max-height: 90em;
+max-width: 90em;
+}
 
 #bottomForm {
 align-self: center;
@@ -197,10 +202,11 @@ height: 2em;
   align-items: center;
   margin-top: 3em;
   color: black;
+  padding-bottom: 3.5em;
 }
 .left-content {
   flex: 1;
-  padding: 50px 20px 0 0px;  /*add horizontal padding */
+  padding: 50px 0px 0 0px;  /*add horizontal padding */
 }
 h3 {
   font-family: 'Satoshi Medium';
@@ -306,6 +312,8 @@ p:not(#contentBox1) { font-size: 16px; text-align: left;}
 #contentBox2 #contentBox3 #contentBox4  {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2em;
 }
 }
 
