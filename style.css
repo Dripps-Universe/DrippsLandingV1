@@ -339,12 +339,24 @@ object-fit: contain;
     text-align: center;
     padding: 2em 2em;
   }
+  #contentBox6 h2{
+    margin-top: 1em;
+  }
   #subForm {
     width: 15em;
+    max-width: fit-content;
   }
   #bottomBar {
     display: flex;
     justify-content: space-between;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .bodyContainer {
+    margin: 0 auto;
+    max-width: 768px;
+    padding: 0 16px;
   }
 }
 
