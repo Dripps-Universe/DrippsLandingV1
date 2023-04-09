@@ -2,9 +2,9 @@ body {
   background-image: url("assets/BG.png");
   color: white;
   margin: 0;
-  max-width: 100%;
   font-size: 16px;
   text-align: center;
+  overflow-x: hidden;
 }
 .bodyContainer {
 display: flex;
@@ -355,7 +355,7 @@ object-fit: contain;
   }
   .bodyContainer {
     margin: 0 auto;
-    max-width: 768px;
+    max-width: 1200px;
     padding: 0 16px;
   }
 }
