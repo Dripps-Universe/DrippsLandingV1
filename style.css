@@ -37,9 +37,7 @@ padding: 0.5em 3em;
 margin-bottom: 1.5em;
 text-align: center;
 font-size: 16px;
-
 }
-
 h2 {
   font-size: 2em;
   font-weight: bold;
@@ -68,7 +66,6 @@ display: flex;
   margin-top: 4em;
   padding: 2em;
 }
-
 #contentBox5 .why p {
 margin: 0;
 text-align: left;
@@ -128,18 +125,15 @@ border-radius: 2em 2em 2em 2em;
 .align {
   display: flex;
 }
-
 .footerPic {
 max-height: 90em;
 max-width: 90em;
 }
-
 #bottomForm {
 align-self: center;
 color: white;
 background-color: transparent;
 }
-
 #bottomBar {
   background-color: black;
   color: white;
@@ -218,26 +212,22 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-
 .right-content h2 {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
   margin-bottom: 1em;
 }
-
 .right-content p {
   text-align: center;
   margin-bottom: 1em;
 }
-
 .right-content form {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-
 .right-content input[type="email"] {
   padding: 0.5em;
   border: none;
@@ -246,7 +236,6 @@ h3 {
   width: 100%;
   max-width: 20em;
 }
-
 .right-content button {
   color: black ;
   padding: 0.5em 1em;
@@ -295,6 +284,7 @@ object-fit: contain;
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: 0em 0em 0em 1.5em;
   }
   #socialMedia img {
     width: 55%; /* adjust this value as needed */
@@ -341,20 +331,9 @@ object-fit: contain;
   }
   #subForm {
     width: 15em;
-    max-width: fit-content;
   }
   #bottomBar {
     display: flex;
     justify-content: space-between;
   }
-  /*body {
-    overflow-x: hidden;
-  }
-  .bodyContainer {
-    margin: 0 auto;
-    max-width: 768px;
-    padding: 0 16px;
-  }*/
 }
-
-
