@@ -295,7 +295,6 @@ object-fit: contain;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 0em 0em 0em 1.5em;
   }
   #socialMedia img {
     width: 55%; /* adjust this value as needed */
@@ -339,6 +338,13 @@ object-fit: contain;
     justify-content: center;
     text-align: center;
     padding: 2em 2em;
+  }
+  #subForm {
+    width: 15em;
+  }
+  #bottomBar {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
